@@ -7,6 +7,8 @@ require __DIR__ . '/vendor/autoload.php';
 const PERIODIC = 5;
 const CLEAN = PERIODIC * 8;
 
+date_default_timezone_set ('America/Sao_Paulo');
+
 function con () {
     try {
         $pdo = new \PDO('sqlite:' . __DIR__ . '/db.sqlite');
