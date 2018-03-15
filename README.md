@@ -10,8 +10,8 @@
 ## instalação
 
 ```git clone git@github.com:wouerner/loopServer.git```  
-```cd loopServer  ```
-```php composer.phar install```
-```docker-compose up```
+```cd loopServer  ```  
+```php composer.phar install```  
+```docker-compose up```   
 
-Divirta-se
+Divirta-se  
